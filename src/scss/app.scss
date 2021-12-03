@@ -1,0 +1,27 @@
+.app {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh
+}
+@import './index.scss';
+@import './tasks.scss';
+@import './task.scss';
+@import './menus.scss';
+@import './secrch.scss';
+
+@media (max-width: 576px) {
+    .tasks-app {
+      max-width: 95%;
+      width: 95%;
+      grid-template-columns: 1fr;
+    }
+    .task {
+        &-add {
+            grid-template-columns: 1fr;
+            &__btn {
+                padding: 10px;
+            }
+        }
+    }
+  }
