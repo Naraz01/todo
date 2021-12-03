@@ -19,10 +19,16 @@
       "id": 9
     },
     {
-      "text": "лллллkkk,kkkkkkkkkkkkkkkkkkkkkkkggggggggggggggggggggggggggggggggggg",
+      "text": "Fc",
       "isDone": false,
       "isChosen": false,
       "id": 10
+    },
+    {
+      "text": "Astana",
+      "isDone": false,
+      "isChosen": false,
+      "id": 11
     }
   ]
 }
